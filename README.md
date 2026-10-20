@@ -1,11 +1,12 @@
-📈 GuessMarket
+# 📈 GuessMarket
 
-Java Prediction Market Simulation
+### Java Prediction Market Simulation
+
 GuessMarket is a collaborative Java project that simulates a prediction-market platform where users can trade shares based on the possible outcomes of real-world events.
 
 The project combines object-oriented design, market-pricing algorithms, graphical interfaces, and client–server communication.
 It was developed in stages, from a console-based application to a modular system with a JavaFX desktop client and an HTTP-based server.
-✨ Key Features
+## ✨ Key Features
 - Event management: Load event definitions from XML files, validate their contents, browse available markets, and resolve completed events.
 - Two trading mechanisms:
   - LMSR (Logarithmic Market Scoring Rule): Calculates share prices dynamically as market positions change.
@@ -17,7 +18,7 @@ It was developed in stages, from a console-based application to a modular system
 - Data exchange: Use XML for event configuration and JSON for client–server communication.
 - Web-related modules: Contains web/ and web-client/ components.
 
-🎓 What This Project Demonstrates
+## 🎓 What This Project Demonstrates
 - Designing and maintaining a multi-module Java application.
 - Applying OOP principles and separating business logic from presentation.
 - Implementing trading and price-calculation logic.
@@ -25,5 +26,5 @@ It was developed in stages, from a console-based application to a modular system
 - Integrating clients and a server through HTTP and structured data exchange.
 - Collaborating on a shared codebase using Git and GitHub.
 
-👩‍💻 Contributors
+## 👩‍💻 Contributors
 Developed collaboratively by Noa Allouche and Almog Hasson as part of a Java software development course.
